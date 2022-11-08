@@ -13,6 +13,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(22.jpg);
+    background-position: center;
+    background-size: contain;
 }
 #child-2{
     background-color: rgb(11, 174, 101);
@@ -61,6 +64,9 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    background-image: url(22.jpg);
+    background-position: center;
+    background-size: contain;
 }
 #p4-child-2{
     background-color: rgb(9, 87, 90);
@@ -68,6 +74,9 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    background-image: url(tk.jpg);
+    background-position: center;
+    background-size: contain;
 }
 #p4-child-3{
     background-color: rgb(58, 8, 73);
@@ -75,6 +84,9 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    background-image: url(gaa.jpg);
+    background-position: center;
+    background-size: contain;
 }
 #p4-child-4{
     background-color: rgb(0, 0, 0);
@@ -82,6 +94,9 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    background-image: url(gg.jpg);
+    background-position: center;
+    background-size: contain;
 }
 footer{
     background-color: black;
