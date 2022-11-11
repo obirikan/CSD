@@ -1,108 +1,75 @@
 *{
-    margin:0px;
+    margin: 0px;
 }
 #parent{
-    background-color:gray;
-    height: 200px;
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-}
-#child-1{
-    background-color: black;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(22.jpg);
+    background-color: aqua;
+    background-image: url('./imgs/tk.jpg');
     background-position: center;
-    background-size: contain;
-}
-#child-2{
-    background-color: rgb(11, 174, 101);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    /* padding: 20px; */
 }
 
-#blue-lock{
-    font-size: 70px;
-}
-
-#parent-2{
-    background-color: blue;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+#main{
+    border: 1px solid black;
+   
 }
 a{
-  color: white;
-  text-decoration: none;
-}
-#parent-3{
-    background-color: rgb(88, 70, 186);
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#p3-child{
-    font-size: 70px;
+    text-decoration: none;
     color: white;
-    
+    font-size: 25px;
 }
-#parent-4{
-    background-color: aqua;
-    height: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-}
-#p4-child-1{
-    background-color: cadetblue;
+#linkbar{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    background-image: url(22.jpg);
-    background-position: center;
-    background-size: contain;
-}
-#p4-child-2{
-    background-color: rgb(9, 87, 90);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    background-image: url(tk.jpg);
-    background-position: center;
-    background-size: contain;
-}
-#p4-child-3{
-    background-color: rgb(58, 8, 73);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    background-image: url(gaa.jpg);
-    background-position: center;
-    background-size: contain;
-}
-#p4-child-4{
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    background-image: url(gg.jpg);
-    background-position: center;
-    background-size: contain;
-}
-footer{
+    justify-content: space-evenly;
+    padding: 10px;
     background-color: black;
-    color: aliceblue;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+#child-2{
+    display: grid;
+    grid-template-rows: 0.4fr 0.4fr 0.4fr;
+    height: 80vh;
+
+}
+#main-txt{
+    font-size: 90px;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+input{
+   width: 600px;
+   height: 70px;
+   border-radius: 40px;
+   border: none;
+}
+blockquote{
+    color: white;
+    font-size: 50px;
+}
+span{
+   color: white;
+   position: relative;
+   left: 30px;
+   top: 35px;
+}
+
+#tvseries{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#tvseries div{
+    border: 1px solid black;
+
+}
+#gaara{
+    background-image: url('./imgs/gg.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
